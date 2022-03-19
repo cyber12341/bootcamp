@@ -14,9 +14,7 @@
       <div class="w-full q-pa-lg text-justify" v-html="blogDetail.isi"></div>
 
       <div class="w-full font-bold px-8">
-        <p class="text-3xl text-center text-rose-400">
-          Coba Paket Belajar Lainnya
-        </p>
+        <p class="text-3xl text-center text-rose-400">Blog Lainnya</p>
       </div>
       <div class="flex w-full px-8 pt-8 md:pl-4 md:pr-8 md:py-8">
         <blog-card
