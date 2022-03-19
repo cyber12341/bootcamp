@@ -1,0 +1,33 @@
+// app global css in SCSS form
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@layer base {
+  h1 {
+    @apply text-3xl font-bold mb-4  #{!important};
+  }
+  h2 {
+    @apply text-2xl font-semibold mb-4 #{!important};
+  }
+  h3 {
+    @apply text-xl font-semibold mb-4 #{!important};
+  }
+  h4 {
+    @apply text-xl font-semibold mb-4 #{!important};
+  }
+  h5 {
+    @apply text-xl #{!important};
+  }
+  li {
+    @apply mb-3 text-base;
+  }
+  li:last-child {
+    @apply mb-5;
+  }
+  hr {
+    @apply my-4;
+  }
+  p {
+    @apply text-base;
+  }
+}
